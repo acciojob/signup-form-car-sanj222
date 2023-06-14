@@ -7,6 +7,42 @@
 </head>
 
 <body>
+	<h1>Signup Form Car</h1>
+	<form action="/submit" method="post">
+		<label for="name">Name*</label>
+		<input type="text" name="name" required id="#name" placeholder="Name">
+		<br>
+
+		<label for="email">Email*</label>
+		<input type="email" name="email" required id="#email" placeholder="Email">
+		<br>
+
+		<label for="gender">Gender*</label>
+		<input type="radio" required id="gender_m" name="gender">
+		<label for="male">Male</label>
+		<input type="radio" required id="gender_f" name="gender">
+		<label for="female">Female</label>
+		<br>
+
+		<label for ="Car Brands"">Car Brands*</label>
+			<select required id="cars">
+          <!-- option tag starts -->
+            <option>--Please choose an option--</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+        <!-- option tag ends -->
+        </select>
+        <br>
+
+		<label for ="Age">Age*</label>
+			<input required type="number" name="Age" placeholder ="Age" id="#age" min="1">
+		<br>
+
+		<label for="DOB">DOB*</label>
+		<input type="date">
+
+		<button>"submit"</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
