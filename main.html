@@ -10,22 +10,22 @@
 	<h1>Signup Form Car</h1>
 	<form action="/submit" method="post">
 		<label for="name">Name*</label>
-		<input type="text" name="name" required id="#name" placeholder="Name">
+		<input type="text" name="#name" required id="#name" placeholder="Name">
 		<br>
 
 		<label for="email">Email*</label>
-		<input type="email" name="email" required id="#email" placeholder="Email">
+		<input type="email" name="#email" required id="#email" placeholder="Email">
 		<br>
 
 		<label for="gender">Gender*</label>
-		<input type="radio" required id="gender_m" name="gender">
+		<input type="radio" required id="#gender_m" name="gender">
 		<label for="male">Male</label>
-		<input type="radio" required id="gender_f" name="gender">
+		<input type="radio" required id="#gender_f" name="gender">
 		<label for="female">Female</label>
 		<br>
 
-		<label for ="Car Brands"">Car Brands*</label>
-			<select required id="cars" name="cars">
+		<label for ="CaRS"">Car Brands*</label>
+			<select required id="#cars" name="#cars">
           <!-- option tag starts -->
             <option>--Please choose an option--</option>
             <option value="BMW">BMW</option>
@@ -36,23 +36,23 @@
         <br>
 
 		<label for ="Age">Age*</label>
-			<input required type="number" name="Age" placeholder ="Age" id="#age" min="1">
+			<input required type="number" name="#age" id="#age" placeholder ="Age" min="1">
 		<br>
 
 		<label for="DOB">DOB*</label>
-		<input type="date" name="DOB" placeholder="DOB" id="#dob">
+		<input type="date" required id="#dob" name="#dob" placeholder="DOB" >
 		<br>
 
 		<label for ="Phone Number">Phone Number</label>
-		<input required type="tel" name="Phone Number" placeholder="xxx-xxx-xxxx"id="#tel">
+		<input required type="tel" id="#tel" name="Phone Number" placeholder="xxx-xxx-xxxx">
 		<br>
 
 		<label for ="Password">Password*</label>
-		<input type="password" name="Password" placeholder="Password"id="#password" required>
+		<input type="password" required id="#password" name="Password" placeholder="Password">
 		<br>
 
 		<label for ="TOS"> I agree to the TOS*</label>
-		<input required type="checkbox" name="TOS"id="#tos">
+		<input required type="checkbox" id="#tos" name="TOS">
 		<br>
 
 		<button>Submit</button>
